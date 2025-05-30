@@ -1,11 +1,7 @@
 package org.example
 
 fun main() {
-    val complejo = Complejo()
-    complejo=Complejo()
+    val complejo = Complejo(3.0, 4.0)
     println("Objeto Complejo creado")
-    var x:Int=1
-    x:Int=2
+    complejo.mostrarMensaje()
 }
-
-println("Hola mundo")
